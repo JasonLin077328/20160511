@@ -1,0 +1,15 @@
+寶哥您好
+
+最主要問題在於
+
+Chrome 看到  <div style="background-image: url('');"> 會對Server 目前路徑送出圖片要求(理論上合理)
+但是IE/Edge 卻不會!!!
+
+我用asp.net Debug 
+
+Chrome 進入兩次 PageLoad 第二次由圖片觸發
+IE/Edge只進入一次 PageLoad 
+
+是因為他們表現方式不同嗎
+
+這樣默默被吃掉兩倍的資源都不知道.......
